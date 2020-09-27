@@ -75,7 +75,10 @@ print('Imported relations: ' + file_path)
 				
 """
 if __name__ == "__main__":
+	#futura implementazione per rendere il dbname un parametro
 	if len(sys.argv) == 3 :
 		main(sys.argv[1], sys.argv[2])
+	if len(sys.argv) == 2 :
+		main('', sys.argv[1])
 	else:
-		print('[ERROR] usage: neo4j.py <db_name> <files_path>')
+		print('[ERROR] usage: neo4j.py <files_path>')
