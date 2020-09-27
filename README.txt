@@ -1,8 +1,4 @@
-Questi sono solo degli script utilizzati per fare dei confronti
-Tutto il codice di riferimento, configurazioni, informazioni e implementazioni si trova presso
-https://github.com/Zefyrus94/DataProvenance
-
-eseguendo
+Eseguendo
 - jupyter notebook PowerConsumption.ipynb
 	si utilizza mlflow per registrare le informazioni di provenienza per le operazioni di pre-processing (artefatti),
 	training (metriche e parametri). Esse vengono salvate nella cartella mlruns (all'interno di questa cartella) e sono visualizzabili tramite web browser dopo aver eseguito su command line: mlflow ui
