@@ -10,3 +10,9 @@ Eseguendo
 - python client.py: crea 10 task di provenienza con una coda di 5 elementi per il calcolo del fattoriale. IBM Brasile ha
 	reso il compito molto flessibile, molto dipenderà poi dalle query (es. quelle riportata da Giulia) per riuscire ad estrarre la giusta informazione sulla provenienza di un certo dato che ha subito numerose trasformazioni
 - python neo4j <folderToUpload>: dopo aver modificato all'interno del file la password per il graph db (per Neo4j Desktop per Windows 10) e tgtdir l'esecuzione di questo script carica entità, attività e relazioni contenute nei file json per la cartella <folderToUpload> specificata. Sul calco del file per caricare i dati su MongoDB ad opera di Giulia Simonelli, anche questa deve essere del tipo results/Censusprov (una cartella di file json contenuta in un'altra cartella)
+
+
+
+
+The ProvLake's code is Renan Souza and IBM's property.
+Some other experiments on data provenance required the use of code of Giulia Simonelli and the authors of Scorpion, Titian and Databricks AI Summit 2020.
